@@ -1,0 +1,45 @@
+{
+  "name": "FoodPlanner",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "Food planning application w/ calendar",
+  "scripts": {
+    "test": "jasmine spec"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8",
+    "mongoose-validator": "^1.2.5",
+    "request": "^2.74.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jasmine": "^1.0.3",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5"
+  },
+  "engines": {
+    "node": "4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/food_planner/"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
